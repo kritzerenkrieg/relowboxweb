@@ -11,7 +11,7 @@ interface ImageButtonProps {
         <button onClick={onClick} className="flex items-center">
         <img src={imageSrc} alt="" className="mr-3" />
             <div className='subtitle text-gray-500 hover:text-gray-700' style={{ padding: '0 10px'}}>
-            Daftar dengan Google
+            {text}
             </div>
         </button>
     </div>

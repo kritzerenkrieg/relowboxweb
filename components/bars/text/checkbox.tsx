@@ -7,7 +7,7 @@ interface CheckboxProps {
 
 const Checkbox: FC<CheckboxProps> = ({ label, id }) => {
   return (
-    <div className='m-8' style={{ display: 'flex', alignItems: 'center' }}>
+    <div className='m-4' style={{ display: 'flex', alignItems: 'center' }}>
       <input type="checkbox" id={id} />
       <label htmlFor={id} style={{ marginLeft: '8px' }}>
         {label}

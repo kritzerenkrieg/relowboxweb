@@ -10,7 +10,7 @@ interface RelowButtonProps {
     <div className='RelowButtonBoxStyle'>
         <button onClick={onClick} className="flex items-center">
             <div className='text-gray-100 hover:text-gray-300' style={{ padding: '0 10px'}}>
-            Register
+            {text}
             </div>
         </button>
     </div>

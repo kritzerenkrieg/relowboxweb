@@ -10,7 +10,7 @@ import Label from 'components/bars/text/Label'
 import Checkbox from 'components/bars/text/checkbox'
 import RelowButton from 'components/bars/buttons/RelowButton'
 
-export default function Login() {
+export default function Register() {
   return (
     <>
 
@@ -33,36 +33,40 @@ export default function Login() {
         />
 
       <div className='title'>
-      Login
+      Register
       </div>
 
       <div className='subtitle'>
-      Masukkan data yang telah kamu daftarkan
+      Daftar sekarang untuk mencoba fitur kami
       </div>
 
       <br></br>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <ImageButton 
             imageSrc={"/google.svg"}
-            text={"Masuk dengan Google"}
+            text={"Daftar dengan Google"}
             onClick={GoogleRegister}
           />
         </div>
 
         <LineWithText text="or" />
 
+        <Label label="Nama" inputId="username" inputType="username" />
+
+        <Label label="Nomor Whatsapp" inputId="usernumber" inputType="number" />
+
         <Label label="Email" inputId="email" inputType="email" />
 
         <Label label="Password" inputId="passwprd" inputType="password" />
 
-        <div className="text-right mb-6 text-sm font-normal leading-7">
-            <a href="https://my.its.ac.id/" className="text-sky-500 hover:text-sky-600">Lupa password?</a>
-        </div>
+        <Label label="NRP" inputId="nrp" inputType="number" />
+
+        <Checkbox label="Saya setuju dengan terms and servies" id="termandservice"/>
 
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <RelowButton 
             imageSrc={"/google.svg"}
-            text={"Login"}
+            text={"Daftar dengan Google"}
             onClick={GoogleRegister}
           />
         </div>
@@ -71,7 +75,9 @@ export default function Login() {
           <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
           </div>
           <div className="pt-8 text-base font-semibold leading-7">
-              <a href="https://my.its.ac.id/" className="text-sky-500 hover:text-sky-600">Belum punya akun? &rarr;</a>
+            <p>
+              <a href="https://my.its.ac.id/" className="text-sky-500 hover:text-sky-600">Sudah punya akun? &rarr;</a>
+            </p>
           </div>
         </div>
       </div>
