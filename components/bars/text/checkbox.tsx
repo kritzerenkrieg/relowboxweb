@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 interface CheckboxProps {
   label: string;
-  id: string;
+  id: string; 
 }
 
 const Checkbox: FC<CheckboxProps> = ({ label, id }) => {

@@ -1,82 +1,81 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { global } from 'styled-jsx/css'
-import CenterSquare from 'components/bars/layouts/CenterSquare'
-import GoogleRegister from 'components/bars/buttons/GoogleRegister'
 import DefaultBackground from 'components/bars/layouts/DefaultBackground'
-import ImageButton from 'components/bars/buttons/ImageButton'
-import LineWithText from 'components/bars/text/linewithtext'
-import Label from 'components/bars/text/Label'
-import Checkbox from 'components/bars/text/checkbox'
-import RelowButton from 'components/bars/buttons/RelowButton'
+
 
 export default function Login() {
   return (
     <>
 
-      <Head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="./public/logo.png" />
-      </Head> 
+    <Head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="../public/logo.png" />
+  <title>Landing Page</title>
+    </Head> 
 
-  <DefaultBackground>
-    <CenterSquare>
-      <div className='mx-auto max-w-md'>
-        
-      <Image
-        src="/logo.svg"
-        alt="Relow"
-        width={150}
-        height={150}
-        style={{ marginBottom: '2rem' }}
-        priority
-        />
-
-      <div className='title'>
-      Login
-      </div>
-
-      <div className='subtitle'>
-      Masukkan data yang telah kamu daftarkan
-      </div>
-
-      <br></br>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <ImageButton 
-            imageSrc={"/google.svg"}
-            text={"Masuk dengan Google"}
-            onClick={GoogleRegister}
-          />
-        </div>
-
-        <LineWithText text="or" />
-
-        <Label label="Email" inputId="email" inputType="email" />
-
-        <Label label="Password" inputId="passwprd" inputType="password" />
-
-        <div className="text-right mb-6 text-sm font-normal leading-7">
-            <a href="https://my.its.ac.id/" className="text-sky-500 hover:text-sky-600">Lupa password?</a>
-        </div>
-
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <RelowButton 
-            imageSrc={"/google.svg"}
-            text={"Login"}
-            onClick={GoogleRegister}
-          />
-        </div>
-
-        <div className="divide-y divide-gray-300/50">
-          <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
+    <body id="iau9">
+      <div id="i6po" className="gjs-grid-row">
+        <div id="iqjl" className="gjs-grid-column">
+          <img src="../public/logo.png" alt="" id="il1b4"/>
           </div>
-          <div className="pt-8 text-base font-semibold leading-7">
-              <a href="https://my.its.ac.id/" className="text-sky-500 hover:text-sky-600">Belum punya akun? &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </CenterSquare>
-  </DefaultBackground>
+          <div id="id7x" className="gjs-grid-column">
+            <a href="#testimonial-section" id="i6zal" className="gjs-link">Perangkat</a>
+            <a href="#feature-section" id="id4i9" className="gjs-link">Tentang Kami</a>
+            <a href="#feature-section" id="iurui" className="gjs-link">Jasa</a>
+            <a href="#feature-section" id="i7b69" className="gjs-link">Masuk</a>
+            <a href="kuritzukurisu.itch.io" target="_blank" id="iiawf" className="gjs-button gjs-link">
+              <b id="iw8yj">
+                <span id="ilo45" className="gjs-link">
+                Daftar Sekarang</span>
+                </b>
+                </a>
+                </div>
+                </div>
+                <div id="irz7b" className="gjs-grid-row">
+                  <div id="iycz3" className="gjs-grid-column">
+                    <div id="iip4n" className="gjs-image-box">
+                      </div>
+                      <h1 id="irjua" className="gjs-heading">
+                        Ease <span id="if28h">your day,</span><br/>Comfort <span id="i5aak">your life</span>
+                        </h1><div id="itndw" className="text-main-content">
+                          "Clean your shoe because you deserve it." -Tsun Zu</div>
+                          </div>
+                          </div>
+                          <div id="ioyxg" className="gjs-grid-row">
+                            <div id="i8w4i" className="gjs-grid-column">
+                              <h2 id="iiacm" className="gjs-heading">
+                                <span id="ip3bh"><span id="ii86ai">
+                                  <b id="inp4tc">Karena Kami</b></span><br/>Menjadi </span>#LebihMudah</h2>
+                                  <div id="izhbz">Gunakan fitur mudah dengan langkah yang sederhana dari aplikasi Relow<br/>Sekarang kamu tidak bingung kapan dan dimana sepatu anda dicuci</div>
+                                  </div></div>
+                                  <div id="iz29ek" className="gjs-grid-row">
+                                    <div id="iy4ik5" className="gjs-grid-column">
+                                      <img id="iffiq7" src="../public/house_solid.svg"/>
+                                      <div id="i7nidf" className="text-main-content">Buka aplikasi Relow</div>
+                                      </div><div id="iziehg" className="gjs-grid-column">
+                                        <img src="../public/cart_shopping_solid.svg" id="ite65n"/>
+                                        <div id="is8k9o" className="text-main-content">Pesan order baru</div>
+                                        </div><div id="iwtror" className="gjs-grid-column">
+                                          <img id="ignb4m" src="../public/list_solid.svg"/>
+                                          <div id="i2madm" className="text-main-content">Cek status sepatu</div>
+                                          </div></div><div id="iwaw4c" className="gjs-grid-row">
+                                            <div id="iauvhi" className="gjs-grid-column"><h2 id="ibx04w" className="gjs-heading">
+                                              <span id="in98za">Pengalaman mereka</span><br/>bersama kami</h2>
+                                              <div id="i6tlq1" className="text-main-content">Yuk kita lihat pengalaman dari pengguna jasa kita yang sudah merasakan seberapa mudah<br/>
+                                              mencuci sepatu mereka dengan jasa Relow. Simak nih beberapa testimoni dari rekan kita!<br/></div>
+                                              <div id="ijgzmd" className="gjs-grid-row"><div id="irlkry" className="gjs-grid-column">
+                                                <img src="../public/yodyod.png" id="imdy45"/><div id="ilsw14" className="text-main-content">
+                                                  <b id="i2qym3">Yodi</b></div><div id="i9u6o4" className="text-main-content">Ini sangat trendy apalagi<br/>
+                                                  buat anak muda yang selalu mantap fashionnya</div></div><div id="is2klr" className="gjs-grid-column">
+                                                    <img src="../public/zada.jpg" id="ij838p"/><div id="igfcaj" className="text-main-content">
+                                                      <b id="i6y44y">Zada</b></div><div id="iycjvv" className="text-main-content">
+                                                        Aku sempet bingung kalau<br/>mau cuci sepatu dimana<br/>untung ada aplikasi Relow</div></div>
+                                                        <div id="i8itcw" className="gjs-grid-column"><img src="../public/lao.jpg" id="i5493j"/>
+                                                        <div id="i3a3yz" className="text-main-content"><b id="ine986">Laode</b></div>
+                                                        <div id="ijmg5d" className="text-main-content">Alhamdulillah setelah Relow saya merasa sangat percaya diri</div></div></div></div></div>
+                                                        <div id="iv3be5" className="gjs-grid-row"><div id="ilriti" className="gjs-grid-column">
+                                                          <div id="id7ol" className="gjs-text-blue">Terms &amp; Conditions</div>
+                                                          <a id="ipjdtn" href="https://grapesjs.com/" className="gjs-link">2023 Relow - All your right are belong to us</a></div></div>
+                                                          </body>
     </>
   )
 }
